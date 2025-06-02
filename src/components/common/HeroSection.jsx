@@ -20,20 +20,25 @@ const HeroSection = () => {
         user-centered applications.
       </p>
       <div className="d-flex gap-4 mt-4">
-        <a href="#scrollspyHeading4">
+        <a href="#connect">
           <button
             className={`btn ${theme === "dark" ? "btn-info" : "btn-success"}`}
           >
             Contact Me
           </button>
         </a>
-        <button
-          className={`btn ${
-            theme === "dark" ? "btn-outline-secondary" : "btn-outline-danger"
-          }`}
+        <a
+          href="https://app.enhancv.com/share/3ff6317f/?utm_medium=growth&utm_campaign=share-resume&utm_source=dynamic"
+          target="_blank"
         >
-          Resume
-        </button>
+          <button
+            className={`btn ${
+              theme === "dark" ? "btn-outline-secondary" : "btn-outline-danger"
+            }`}
+          >
+            Resume
+          </button>
+        </a>
       </div>
     </section>
   );
