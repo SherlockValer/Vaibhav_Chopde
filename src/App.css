@@ -1,0 +1,19 @@
+* {
+    font-family: Inter, Inter-Fallback;
+    scroll-behavior: smooth;
+}
+
+.project-card:hover {
+    transform: translateY(-5px);
+    transition: all 0.3s;
+}
+
+.project-card {
+    transform: translateY(0px);
+    transition: all 0.3s;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
