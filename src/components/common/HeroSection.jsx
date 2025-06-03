@@ -11,11 +11,11 @@ const HeroSection = () => {
         className={` ${theme === "dark" ? "bg-info" : "bg-success"}`}
         style={{ width: "100px", height: "4px" }}
       ></div>
-      <p className="col-6 fs-5 mt-4">
+      <p className="col-md-6 col-sm-12 fs-5 mt-4">
         Passionate full-stack developer crafting intuitive digital experiences
         with modern technologies.
       </p>
-      <p className="col-8 fs-5">
+      <p className="col-md-8 col-sm-12 fs-5">
         Specializing in React, Node.js, and MongoDB to build scalable and
         user-centered applications.
       </p>

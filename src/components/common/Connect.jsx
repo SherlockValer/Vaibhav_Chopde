@@ -8,7 +8,7 @@ const Connect = () => {
   return (
     <section className="my-5" id="connect">
       <h1 className="fw-bold display-4 pt-5">Connect</h1>
-      <p className="col-6 fs-5">
+      <p className="col-md-6 col-sm-12 fs-5">
         Let's collaborate on something amazing together
       </p>
       <div

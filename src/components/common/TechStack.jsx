@@ -27,7 +27,9 @@ const TechStack = () => {
   return (
     <section className="my-5" id="tech-stack">
       <h1 className="fw-bold display-4 pt-5">Tech Stack</h1>
-      <p className="col-6 fs-5">Technologies and tools I work with</p>
+      <p className="col-md-6 col-sm-12 fs-5">
+        Technologies and tools I work with
+      </p>
       <div
         className={` ${theme === "dark" ? "bg-info" : "bg-success"}`}
         style={{ width: "100px", height: "4px" }}

@@ -43,7 +43,7 @@ const ProjectsSection = () => {
   return (
     <section className="mb-5" id="projects">
       <h1 className="fw-bold display-4 pt-5">Projects</h1>
-      <p className="col-6 fs-5">
+      <p className="col-md-8 col-sm-12 fs-5">
         Building solutions that solve real-world problems
       </p>
       <div
